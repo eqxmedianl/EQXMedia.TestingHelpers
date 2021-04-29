@@ -9,11 +9,33 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Jarno Kamminga</Authors>
     <Company>EQX Media B.V.</Company>
+    <PackageLicenseFile>License.md</PackageLicenseFile>
+    <Copyright>© EQX Media B.V. All rights reserved.</Copyright>
+    <PackageProjectUrl>https://txfilesystem.io/</PackageProjectUrl>
+    <PackageIcon>eqxmedia-logo.png</PackageIcon>
+    <RepositoryUrl>https://github.com/eqxmedianl/eqxmedia-testinghelpers.git</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageReleaseNotes>Version 1.0.0
+-------------
+
+● Initial version.</PackageReleaseNotes>
+    <Description>Helpers for Unit Testing</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Moq" Version="4.0.10827" />
     <PackageReference Include="xunit.extensibility.core" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\eqxmedia-logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\License.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
