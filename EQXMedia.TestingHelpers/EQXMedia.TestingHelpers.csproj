@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0;net461;</TargetFrameworks>
+    <RuntimeFrameworkVersion Condition=" '$(TargetFramework)' == 'netcoreapp2.0' ">2.0.0</RuntimeFrameworkVersion>
+    <CheckEolTargetFramework Condition=" '$(TargetFramework)' == 'netcoreapp2.0' ">false</CheckEolTargetFramework>
+    <AssemblyName>EQXMedia.TestingHelpers</AssemblyName>
+    <RootNamespace>EQXMedia.TestingHelpers</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Jarno Kamminga</Authors>
+    <Company>EQX Media B.V.</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.0.10827" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
