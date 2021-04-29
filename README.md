@@ -1,0 +1,2 @@
+# eqxmedia-testinghelpers
+EQXMedia.TestingHelpers
