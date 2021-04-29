@@ -11,7 +11,7 @@
     <Company>EQX Media B.V.</Company>
     <PackageLicenseFile>License.md</PackageLicenseFile>
     <Copyright>© EQX Media B.V. All rights reserved.</Copyright>
-    <PackageProjectUrl>https://txfilesystem.io/</PackageProjectUrl>
+    <PackageProjectUrl>https://www.eqx-media.nl/</PackageProjectUrl>
     <PackageIcon>eqxmedia-logo.png</PackageIcon>
     <RepositoryUrl>https://github.com/eqxmedianl/eqxmedia-testinghelpers.git</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
